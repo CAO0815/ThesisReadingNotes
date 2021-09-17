@@ -1,13 +1,35 @@
-Java EE体系结构
+一、Java EE体系结构
 
-MVC模式的设计思想
 
-SpringBoot、Vue、Mybaits技术框架
 
-MySQL数据库
+二、MVC模式的设计思想
 
-Shiro安全机制
 
-Redis缓存
 
-Activiti工作流
+三、三大框架
+
+1、SpringBoot
+
+
+
+2、Vue
+
+
+
+3、Mybaits
+
+
+
+四、MySQL数据库
+
+
+五、Redis缓存
+
+
+
+
+六、Shiro安全机制
+
+
+
+七、Activiti工作流
