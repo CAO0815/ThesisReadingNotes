@@ -24,6 +24,21 @@
 
 3、Mybaits
 
+(1)API接口层
+  
+  提供对数据库增删改查操作的接口
+  
+
+
+（2）数据处理层
+  
+  负责对SQL语句的查找、解析、执行和返回结果映射，这一层由API接口层调用，完成对数据库的CRUD。
+
+
+（3）基础支撑层
+  
+  负责缓存处理、配置加载、连接管理和事务管理
+  作为组件为上层提供支撑
 
 
 四、MySQL数据库
@@ -41,6 +56,10 @@ Apache Shiro是一款用于系统认证、角色授权、系统加密和会话�
 Shiro框架有着完善的接口驱动
 
 同时，框架符合面向对象原则,这使得Shiro非常易于扩展。
+
+Shiro框架主要关心Authentication、Authorization、Session Management和Cryptopraphy四大安全基石。其中Authentication（身份验证）负责身份验证与登陆，验证用户是否拥有相应的身份。
+Authorization（授权）负责用户权限的验证，Session Management（会话管理）负责管理用户的 Session， Cryptography（加密）负责利用加密算法保证数据安全。
+
 
 
 
